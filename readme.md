@@ -7,3 +7,5 @@ storybook 실습
 context 실습
 ## 2022/06/29
 redux 실습
+## 2022/06/30
+비동기 제어, API사용 실습

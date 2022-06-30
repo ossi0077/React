@@ -1,0 +1,43 @@
+body{
+  background: url(https://cdn.pixabay.com/photo/2022/06/19/07/12/mount-kilimanjaro-7271184_960_720.jpg);
+  height : 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.weather-card{
+  background-color: rgba(52,52,52,.7) !important;
+  padding: 50px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  max-width: 700px;
+  width: 100%;
+  height: 300px;
+}
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.menu-container{
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+  border-radius: 60px;
+  max-width: 700px;
+  width:100%;
+  padding: 30px;
+  margin-top: 30px;
+
+}
+.menu-container Button{
+  margin-right:30px;
+}
+
+.menu-container Button:hover{
+  background-color: #ffc107;
+}
